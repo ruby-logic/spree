@@ -69,7 +69,7 @@
   </table>
 <% else %>
   <div class="alert alert-info no-objects-found">
-    <%= Spree.t(:no_resource_found, resource: Spree::ReturnAuthorization.model_name.human(count: :many)) %>.
+    <%= Spree.t(:no_resource_found, resource: Spree::ReturnAuthorization.model_name.human(count: I18N_PLURAL_MANY_COUNT)) %>.
   </div>
 <% end %>
 
